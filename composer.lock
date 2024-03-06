@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "35de7c777a21d781f92b454a9bb1eaf2",
+    "content-hash": "bc3c85b36585fb593a98165d62a0009a",
     "packages": [
         {
             "name": "artesaos/seotools",
@@ -2073,105 +2073,6 @@
                 "source": "https://github.com/hacoidev/ophim-core/tree/1.2.7"
             },
             "time": "2024-02-12T14:31:08+00:00"
-        },
-        {
-            "name": "hacoidev/ophim-crawler",
-            "version": "1.1.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hacoidev/ophim-crawler.git",
-                "reference": "16052915b00de3c53a93eb0f1317e95752ba13c2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hacoidev/ophim-crawler/zipball/16052915b00de3c53a93eb0f1317e95752ba13c2",
-                "reference": "16052915b00de3c53a93eb0f1317e95752ba13c2",
-                "shasum": ""
-            },
-            "require": {
-                "hacoidev/ophim-core": "^1.0.0",
-                "intervention/image": "^2.7"
-            },
-            "type": "package",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Ophim\\Crawler\\OphimCrawler\\OphimCrawlerServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ophim\\Crawler\\OphimCrawler\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "hacoidev",
-                    "email": "hacoi.dev@gmail.com"
-                }
-            ],
-            "description": "ophim crawler",
-            "support": {
-                "issues": "https://github.com/hacoidev/ophim-crawler/issues",
-                "source": "https://github.com/hacoidev/ophim-crawler/tree/1.1.8"
-            },
-            "time": "2023-04-07T13:13:49+00:00"
-        },
-        {
-            "name": "hacoidev/ophim-ripple",
-            "version": "1.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hacoidev/ophim-ripple.git",
-                "reference": "b9263764919acb708a3f61ca87dc35e5f052fdc7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hacoidev/ophim-ripple/zipball/b9263764919acb708a3f61ca87dc35e5f052fdc7",
-                "reference": "b9263764919acb708a3f61ca87dc35e5f052fdc7",
-                "shasum": ""
-            },
-            "require": {
-                "ckfinder/ckfinder-laravel-package": "v3.5.2.1",
-                "hacoidev/ophim-core": "^1.1.0",
-                "laravel/framework": "^6|^7|^8"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Ophim\\Ripple\\RippleServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Ophim\\Ripple\\": "src/",
-                    "Ophim\\Ripple\\Database\\Seeders\\": "database/seeders/",
-                    "Ophim\\Ripple\\Database\\Factories\\": "database/factories/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "hacoidev",
-                    "email": "hacoi.dev@gmail.com"
-                }
-            ],
-            "description": "Ophim's ripple theme",
-            "support": {
-                "issues": "https://github.com/hacoidev/ophim-ripple/issues",
-                "source": "https://github.com/hacoidev/ophim-ripple/tree/1.2.2"
-            },
-            "time": "2023-04-06T19:50:16+00:00"
         },
         {
             "name": "hacoidev/permissionmanager",
@@ -5620,20 +5521,20 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v6.4.3",
+            "version": "v7.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "ee0f7ed5cf298cc019431bb3b3977ebc52b86229"
+                "reference": "ec60a4edf94e63b0556b6a0888548bb400a3a3be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/ee0f7ed5cf298cc019431bb3b3977ebc52b86229",
-                "reference": "ee0f7ed5cf298cc019431bb3b3977ebc52b86229",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/ec60a4edf94e63b0556b6a0888548bb400a3a3be",
+                "reference": "ec60a4edf94e63b0556b6a0888548bb400a3a3be",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.1"
+                "php": ">=8.2"
             },
             "type": "library",
             "autoload": {
@@ -5665,7 +5566,7 @@
             "description": "Converts CSS selectors to XPath expressions",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/css-selector/tree/v6.4.3"
+                "source": "https://github.com/symfony/css-selector/tree/v7.0.3"
             },
             "funding": [
                 {
@@ -5681,7 +5582,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-23T14:51:35+00:00"
+            "time": "2024-01-23T15:02:46+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -10332,5 +10233,5 @@
         "php": "^7.3|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
