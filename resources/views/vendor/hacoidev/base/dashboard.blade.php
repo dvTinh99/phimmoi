@@ -2,20 +2,20 @@
 
 @php
     $widgets['before_content'] = [
-        [
-            'type' => 'alert',
-            'class' => 'alert alert-dark mb-2 col-12',
-            'heading' => 'OPhimCMS - Tạo website xem phim miễn phí vĩnh viễn',
-            'content' =>
-                '
-                Phiên bản: <span class="text-danger text-break">' .
-                config('ophim.version') .
-                '</span><br/>
-                Trang chủ: <a href="https://ophimcms.com">OPhimCMS.Com</a><br/>
-                Dữ liệu phim miễn phí: <a href="https://ophim5.cc">Ổ Phim</a>
-            ',
-            'close_button' => true, // show close button or not
-        ],
+        // [
+        //     'type' => 'alert',
+        //     'class' => 'alert alert-dark mb-2 col-12',
+        //     'heading' => 'OPhimCMS - Tạo website xem phim miễn phí vĩnh viễn',
+        //     'content' =>
+        //         '
+        //         Phiên bản: <span class="text-danger text-break">' .
+        //         config('ophim.version') .
+        //         '</span><br/>
+        //         Trang chủ: <a href="https://ophimcms.com">OPhimCMS.Com</a><br/>
+        //         Dữ liệu phim miễn phí: <a href="https://ophim5.cc">Ổ Phim</a>
+        //     ',
+        //     'close_button' => true, // show close button or not
+        // ],
     ];
 @endphp
 
